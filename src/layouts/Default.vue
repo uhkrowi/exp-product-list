@@ -4,14 +4,14 @@ import Header from "@/components/layout-default/Header.vue";
 </script>
 
 <template>
-  <div class="w-full flex justify-center">
+  <div class="flex justify-center">
     <div class="w-full max-w-[1280px]">
       <Header />
 
       <div
-        class="w-full flex flex-col justify-center items-center relative content"
+        class="flex flex-col justify-center items-center relative content"
       >
-        <div class="w-full pb-[160px] px-[20px] xl:px-[57px]">
+        <div class="pb-[160px] px-[20px] xl:px-[57px]">
           <slot />
         </div>
       </div>

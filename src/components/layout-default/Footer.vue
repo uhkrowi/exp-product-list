@@ -17,7 +17,7 @@ const socials = [
 
 <template>
   <div
-    class="w-full lg:h-[99px] bg-[#232323] px-[10px] py-[20px] lg:py-0 lg:px-[137px] grid grid-cols-1 lg:flex justify-between items-center"
+    class="lg:h-[99px] bg-[#232323] px-[10px] py-[20px] lg:py-0 lg:px-[137px] grid grid-cols-1 lg:flex justify-between items-center"
   >
     <div class="flex justify-center lg:block">
       <div class="grid grid-cols-3 gap-[30px] text-white">

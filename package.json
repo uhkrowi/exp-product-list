@@ -2,9 +2,9 @@
   "name": "portfolio-vite",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "serve": "vite preview",
     "build": "vite build",
-    "serve": "vite preview"
+    "dev": "vite --host 0.0.0.0"
   },
   "dependencies": {
     "axios": "^0.26.1",

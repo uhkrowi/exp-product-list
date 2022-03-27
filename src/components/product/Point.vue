@@ -2,7 +2,7 @@
 const { numOfPoints } = defineProps({
   numOfPoints: Number,
   icon: {
-    type: Number,
+    type: String,
     default: "small",
   },
 });

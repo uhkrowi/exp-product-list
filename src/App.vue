@@ -5,7 +5,11 @@
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Regular.ttf") format("truetype");
+  font-display: swap;
+}
 
 body {
   font-family: Raleway, sans-serif;

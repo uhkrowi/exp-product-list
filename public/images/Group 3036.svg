@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="76.699997"
+   height="80"
+   viewBox="0 0 76.699998 80"
+   version="1.1"
+   id="svg1154"
+   sodipodi:docname="Group 3036.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1156"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="8.4067019"
+     inkscape:cx="40.503399"
+     inkscape:cy="42.7635"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1154" />
+  <defs
+     id="defs1142">
+    <style
+       id="style1140">.a{fill:#e7246b;}.b{fill:#fff;font-size:14px;font-family:Raleway-Bold, Raleway;font-weight:700;}</style>
+  </defs>
+  <g
+     transform="translate(-1092.119,-708.87109)"
+     id="g1152">
+    <path
+       class="a"
+       d="M 66.415,77.781 1.8,10.755 A 6.374,6.374 0 0 1 0.479,3.89 5.983,5.983 0 0 1 6.087,0 H 63.84 Q 64.601,0 65.325,0.017 65.536,0 65.751,0 h 5.987 a 5,5 0 0 1 5,5 v 3.23 q 0.045,0.618 0.045,1.3 v 63.8 a 6.209,6.209 0 0 1 -3.749,5.81 5.97,5.97 0 0 1 -2.364,0.494 5.881,5.881 0 0 1 -4.255,-1.853 z"
+       transform="translate(1092,709)"
+       id="path1144" />
+    <text
+       class="b"
+       transform="rotate(45,-283.07914,1717.1508)"
+       id="text1150"><tspan
+         x="17.445999"
+         y="13"
+         id="tspan1146">Hot</tspan><tspan
+         x="14.184"
+         y="29"
+         id="tspan1148">Item</tspan></text>
+  </g>
+</svg>

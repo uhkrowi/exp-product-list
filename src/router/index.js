@@ -26,14 +26,17 @@ const routes = [
     component: ProductDetail,
     meta: {
       layout: DefaultLayout,
+      breadcrumb: [
+        {
+          label: "List product",
+          url: "/product",
+        },
+      ],
     },
   },
   {
     path: "/:catchAll(.*)*",
     component: _404,
-    // meta: {
-    //   layout: DefaultLayout,
-    // },
   },
 ];
 

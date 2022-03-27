@@ -1,7 +1,6 @@
 <script setup>
-import { computed, watch } from "vue";
+import { computed } from "vue";
 
-// should place to a variable, don't do destructing or you can't watch it
 const props = defineProps({
   item: Object,
 });
@@ -13,11 +12,11 @@ const labelIcon = computed(() => {
   const isHotItem = isNew && isBestSeller;
 
   if (isHotItem) {
-    icon = "/images/Group 3036.svg";
+    icon = "/images/3036.svg";
   } else if (isBestSeller) {
-    icon = "/images/Group 3030.svg";
+    icon = "/images/3030.svg";
   } else if (isNew) {
-    icon = "/images/Group 3037.svg";
+    icon = "/images/3037.svg";
   }
 
   return icon;

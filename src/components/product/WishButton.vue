@@ -19,7 +19,7 @@ function toggleWishList() {
     alert("Gagal menyimpan sebagai favorite");
   }
 
-  isWishlist.value = true;
+  isWishlist.value = !isWishlist.value;
 }
 </script>
 
@@ -27,7 +27,7 @@ function toggleWishList() {
   <div class="cursor-pointer">
     <img
       v-if="props.isWishlist || isWishlist"
-      src="/images/Group 3044.svg"
+      src="/images/3044.svg"
       alt="Group 3044"
       @click="
         (e) => {
@@ -35,11 +35,11 @@ function toggleWishList() {
           e.stopPropagation();
         }
       "
-      :class="[`w-[${props.width}px]`, `h-[${props.height}px]`]"
+      :style="`width: ${props.width}px; height: ${props.height}px;`"
     />
     <img
       v-else
-      src="/images/Group 3041.svg"
+      src="/images/3041.svg"
       alt="Group 3044"
       @click="
         (e) => {
@@ -47,7 +47,7 @@ function toggleWishList() {
           e.stopPropagation();
         }
       "
-      :class="[`w-[${props.width}px]`, `h-[${props.height}px]`]"
+      :style="`width: ${props.width}px; height: ${props.height}px;`"
     />
   </div>
 </template>

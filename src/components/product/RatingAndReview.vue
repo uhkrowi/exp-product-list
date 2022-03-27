@@ -4,7 +4,7 @@ import { computed } from "vue";
 const props = defineProps({
   rating: Number,
   numOfReviews: Number,
-  iconSize: Number
+  iconSize: Number,
 });
 
 const stars = computed(() => {
